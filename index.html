@@ -28,9 +28,9 @@
         <p class="welcome-header__text">If you have a Bridges Corporation ID, Log In with your ID or phone number.</p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="ID or Phone Number">
-        <input type="password" placeholder="Password">
+    <form action="friends.html" method="GET" id="login-form">
+        <input name="username" required type="text" placeholder="ID or Phone Number">
+        <input name="password" required type="password" minlength="8" placeholder="Password">
         <input type="submit" value="Log In">
         <a href="#">Find Bridges Corp. ID or Password</a>
     </form>
