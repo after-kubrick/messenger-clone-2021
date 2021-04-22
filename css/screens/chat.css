@@ -80,7 +80,7 @@
 }
 
 .message-row--own {
-    justify-content: flex-end;
+    justify-content: flex-end;ß
 }
 
 .message-row--own .message__bubble {
@@ -108,7 +108,7 @@
 }
 
 .reply .reply__column:first-child {
-    width: 10%;
+    width: 10%;ß
 }
 
 .reply .reply__column:last-child {
