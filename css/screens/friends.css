@@ -5,7 +5,7 @@
     padding: 15px 0px;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: -10px;
 }
 
@@ -31,6 +31,10 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen__channel .user-component {
+    margin-bottom: 15px;
+}
+
 @keyframes hideSplashScreen {
     from {
         opacity: 1;
@@ -42,7 +46,7 @@
 }
 
 #splash-screen {
-    background-color: var(--blue);
+    background-color: #000000;
     position: absolute;
     top: 0;
     height: 100vh;
@@ -55,7 +59,19 @@
     animation-delay: 2s;
 }
 
-.talkname {
-    margin-left: 50px;
-    color: black;
+.friends-screen__co-workers {
+    margin-top: 25px;
+    border-top: var(--main-border);
+    padding-top: 15px;
+}
+
+.friends-screen__co-workers-header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__co-workers-header .user-component {
+    margin-bottom: 20px;
 }
