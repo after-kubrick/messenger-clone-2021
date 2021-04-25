@@ -1,3 +1,11 @@
+.find-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
 .recommended-friends {
     margin: 25px 0px;
     padding: 20px 0px;

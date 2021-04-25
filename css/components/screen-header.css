@@ -9,6 +9,7 @@
 .screen-header__title {
     font-size: 34px;
     font-weight: bold;
+    text-shadow: 2px 2px 0 white;
 }
 
 .screen-header__icons span {

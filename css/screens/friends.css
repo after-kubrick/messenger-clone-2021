@@ -1,12 +1,13 @@
 #friends-display-link {
     text-align: center;
     display: block;
-    background-color: #fafafa;
+    background-color: #77d6fc7e;
     padding: 15px 0px;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
     margin-top: -10px;
+    text-shadow: 2px 2px 0 white;
 }
 
 #friends-display-link i {
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0 #2ebbf3;
 }
 
 .friends-screen__channel .user-component {
@@ -70,6 +72,7 @@
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0 #2ebbf3;
 }
 
 .friends-screen__co-workers-header .user-component {

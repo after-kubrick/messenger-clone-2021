@@ -1,0 +1,31 @@
+.login-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.friends-background,
+.chats-background,
+.more-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.find-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.settings-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
