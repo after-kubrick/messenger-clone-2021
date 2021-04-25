@@ -27,7 +27,8 @@
 
 #no-mobile span {
     margin-top: 40px;
-    color: #68e6fd;
+    color: #2ebbf3;
     display: flex;
     font-weight: 600;
+    text-shadow: 3px 3px 0 #ecb32a;
 }
