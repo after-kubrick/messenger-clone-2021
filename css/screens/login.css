@@ -24,7 +24,7 @@
 }
 
 .welcome-header__text {
-    width: 45%;
+    width: 48%;
     font-size: 18px;
     opacity: 0.7;
     padding: 13px 20px;
@@ -83,11 +83,4 @@
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 0 #3b4168;
-}
-
-.login-background {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: auto;
 }

@@ -22,3 +22,13 @@
     height: auto;
     opacity: 0.9;
 }
+
+.chat-background {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
