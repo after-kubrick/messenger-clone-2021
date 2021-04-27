@@ -1,7 +1,3 @@
-#login-body {
-    overflow: hidden;
-}
-
 .welcome-header {
     margin: 140px 0px;
     text-align: center;
@@ -67,15 +63,25 @@
 }
 
 #login-form input[type="submit"] {
-    background-color: #393f64;
     cursor: pointer;
     font-family: "Jura", sans-serif;
     font-weight: bolder;
-    color: white;
-    padding: 25px 0px;
-    border-radius: 5px;
     text-shadow: 1px 1px 0 #3b4168;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: white;
+    background-color: transparent;
+    padding: 25px 0px;
+    border: 2px solid #6e79c2;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: background-color 0.5s;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: #6e79c27a;
+    cursor: pointer;
+    border: 2px solid #6e79c2;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 #login-form a {

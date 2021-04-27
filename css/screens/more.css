@@ -11,10 +11,14 @@
 
 .more-suggestions__title {
     margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 white;
 }
 
 .more-suggestions__icons {
     display: flex;
+    text-shadow: 2px 2px 0 black;
+    color: var(--blue);
 }
 
 .more-suggestions__icon {
