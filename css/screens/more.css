@@ -15,14 +15,20 @@
     text-shadow: 1px 1px 0 white;
 }
 
+.more-suggestions__title > i {
+    color: #4681cf;
+}
+
 .more-suggestions__icons {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-shadow: 2px 2px 0 black;
     color: var(--blue);
 }
 
 .more-suggestions__icon {
-    margin-right: 30px;
+    margin: 0px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
