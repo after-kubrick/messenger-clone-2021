@@ -40,3 +40,24 @@
     border-radius: 25px;
     margin-bottom: 10px;
 }
+
+.more-ads {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-ads__title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-top: var(--main-border);
+    padding-top: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 white;
+}
+
+.more-ads__image {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
